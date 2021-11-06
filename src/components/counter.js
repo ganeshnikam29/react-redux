@@ -6,7 +6,7 @@ import * as actionTypes from '../store/actions';
 const Counter = (props) => {
   return (
     <div>
-      <p className="counter">Counter : {props.ctr}</p>
+      <h1 className="counter">Counter : {props.ctr}</h1>
       <button className="button" onClick={props.onIncrement}>
         Increment
       </button>
